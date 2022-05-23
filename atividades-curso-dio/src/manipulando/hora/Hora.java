@@ -15,24 +15,35 @@ public class Hora {
         this.hora = hora;
         switch (hora){
             case "1":
-                System.out.println("Bom dia!");
-                break;
             case "2":
-                System.out.println("Bom dia!");
-                break;
             case "3":
+            case "4":
+            case "5":
+            case "6":
+            case "7":
+            case "8":
+            case "9":
+            case "10":
+            case "11":
                 System.out.println("Bom dia!");
                 break;
             case "12":
-                System.out.println("Boa tarde!");
-                break;
             case "13":
+            case "14":
+            case "15":
+            case "16":
+            case "17":
+            case "18":
                 System.out.println("Boa tarde!");
-            case "19":
-                System.out.println("Boa noite!");
                 break;
+            case "19":
             case "20":
-            System.out.println("Boa noite!");
+            case "21":
+            case "22":
+            case "23":
+            case "24":
+            case "25":
+                System.out.println("Boa noite!");
                 break;
             default:
                 System.out.println("Escolha a hora de 1 a 24 para receber a saudação!");
