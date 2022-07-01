@@ -29,6 +29,5 @@ public class ManipulandoLista {
         // remover x valor por objeto
         numeros.remove(10);
         System.out.println("removendo o valor 6: "+numeros.toString());
-
     }
 }
