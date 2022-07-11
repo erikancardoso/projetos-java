@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class CriandoListas {
     public static void main(String[] args) {
-        // criando list
+        // criando list funciona para listas duplicadas, com indices
         List<Double> notas = new ArrayList<>();
         // adicionando valores apos criada
         notas.add(7d);
