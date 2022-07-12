@@ -1,9 +1,9 @@
 package collection;
 
-public class Gato {
+public class Gato implements Comparable<Gato>{
     private String name;
     private String color;
-    private int age;
+    private Integer age;
 
     public Gato (String nome, String cor, int idade){
         this.name = nome;
@@ -28,5 +28,12 @@ public class Gato {
                 ", color='" + color + '\'' +
                 ", age=" + age +
                 '}';
+    }
+    // em Collection tem o sort que faz comparação mas precisa da implementação
+    // como fiz a implementação do Comparable devo sobrescrever o compareTo
+
+    @Override
+    public int compareTo(Gato g) { //ele guarda o valor em int e organiza em ordem
+        return this.getName().compareToIgnoreCase(g.getName()); // ignorecase faz comparação de strings
     }
 }
