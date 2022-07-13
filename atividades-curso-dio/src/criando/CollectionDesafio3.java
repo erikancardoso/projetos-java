@@ -28,7 +28,7 @@ public class CollectionDesafio3 {
         // mostre as temperaturas acima da média semestral
         System.out.println("A maior temperatura: " + Collections.max(temperatura));
 
-        System.out.println("mostrar os meses que ocorreram os pico máximo de temperatura, foi no mês de: ");
+        System.out.println("O mês que ocorreu pico máximo de temperatura foi em: ");
         Iterator<Double> contador = temperatura.iterator();
         int count = 0;
         int posicao = 0;
