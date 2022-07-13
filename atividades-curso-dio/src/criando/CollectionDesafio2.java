@@ -10,21 +10,24 @@ public class CollectionDesafio2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Telefonou para vítima? ");
-        String resposta = scanner.next(); // scanner insere as informações dentro do array resposta
+        String resposta = scanner.next(); // scanner insere os dados em uma variavel
         respostas.add(resposta.toLowerCase());
+
         System.out.print("Esteve no local do crime? ");
         resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
+
         System.out.print("Mora perto da vítima? ");
         resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
+
         System.out.print("Devia para vítima? ");
         resposta = scanner.next();
         respostas.add(resposta.toLowerCase());
+
         System.out.print("Já trabalhou com a vítima? ");
         resposta = scanner.next();
-
-        respostas.add(resposta.toLowerCase()); // adiciona todos os dados que foram inseridos em scanner
+        respostas.add(resposta.toLowerCase()); // adiciona dados dentro do array
         // toLowerCase converte os caracteres em string em letras minusculas
 
         System.out.println(respostas);
@@ -53,4 +56,4 @@ public class CollectionDesafio2 {
         }
     }
 }
-}
+
