@@ -1,10 +1,10 @@
-package collection;
+package collectionlist;
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class CriandoListas {
+public class Desafio1 {
     public static void main(String[] args) {
         // criando list funciona para listas duplicadas, com indices
         List<Double> notas = new ArrayList<>();

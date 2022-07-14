@@ -1,4 +1,4 @@
-package collection;
+package collectionlist;
 
 public class Gato implements Comparable<Gato>{
     private String name;

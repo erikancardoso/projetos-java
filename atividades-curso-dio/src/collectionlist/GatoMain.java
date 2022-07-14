@@ -1,4 +1,4 @@
-package collection;
+package collectionlist;
 
 import java.util.*;
 
@@ -16,15 +16,19 @@ public class GatoMain {
         System.out.println("imprimir ordem aleatoria");
         Collections.shuffle(meusGatos); // na list não existe, mas em Colletions tem a shurffle
         System.out.println(meusGatos);
+
         System.out.println("imprimir a ordem natural por nome");//usa-se implementação Comparable
         Collections.sort(meusGatos);
         System.out.println(meusGatos);
+
         System.out.println("imprimir a ordem natural por idade");//usa-se Collections
         Collections.sort(meusGatos, new ComparatorIdade());
         System.out.println(meusGatos); // usando Comparator e Collections
+
         //outra forma de exibição usando sort da propria list porem deve implementar o comparator
         meusGatos.sort(new ComparatorIdade());
         System.out.println(""+meusGatos);
+
         System.out.println("Imprimir a ordem natural por cor");
         meusGatos.sort( new ComparatorCor());
         System.out.println(meusGatos);
