@@ -5,7 +5,7 @@ import java.util.*;
 public class Desafio5 {
     public static void main(String[] args) {
         System.out.println("dada uma lista de 7 notas crie e inicialise usando Coleções Set");
-        LinkedHashSet<Double> notas = new LinkedHashSet<>(Arrays.asList(10d,8d,5d,7d));
+        Set<Double> notas = new LinkedHashSet<>(Arrays.asList(10d,8d,5d,7d));
         System.out.println("Imprima o conteudo da lista:" + notas);
         System.out.println("verifique se o elemento 10 contem nesta lista: "+ notas.contains(10d));
         System.out.println("Mostrar por ordem de inserção usando LinkedHashSet: ");
