@@ -32,6 +32,7 @@ public class GatoMain {
         System.out.println("Imprimir a ordem natural por cor");
         meusGatos.sort( new ComparatorCor());
         System.out.println(meusGatos);
+
         System.out.println("imprimir pela sequencia nome/cor/idade");
         meusGatos.sort( new ComparatorNomeCorIdade());
         System.out.println(meusGatos);
