@@ -2,7 +2,7 @@ package collectionset;
 
 import java.util.Objects;
 
-public class ArcoIris {
+public class ArcoIris implements Comparable<ArcoIris> {
     private String cor;
 
     public ArcoIris(String cor) {
@@ -33,5 +33,10 @@ public class ArcoIris {
     @Override
     public int hashCode() {
         return Objects.hash(cor);
+    }
+
+    @Override
+    public int compareTo(ArcoIris o) {
+        return this.getCor().compareToIgnoreCase(o.getCor()); // ignorecase faz comparação de strings
     }
 }
