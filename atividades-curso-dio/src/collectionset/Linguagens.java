@@ -2,7 +2,7 @@ package collectionset;
 
 import java.util.Objects;
 
-public class Linguagens {
+public class Linguagens implements Comparable<Linguagens>{
     private String nome;
     private Integer ano;
     private String ide;
@@ -45,5 +45,10 @@ public class Linguagens {
                 ", ano=" + ano +
                 ", ide='" + ide + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Linguagens o) {
+        return this.getNome().compareToIgnoreCase(o.getNome());
     }
 }
