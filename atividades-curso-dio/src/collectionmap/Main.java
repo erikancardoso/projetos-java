@@ -18,7 +18,7 @@ public class Main {
         population.put("RN", 3.534165);
         System.out.println("\u001b[32;40m "+population+"\u001b[m");
         System.out.println("\u001b[7m Confira se o estado PB está no dicionário, caso não adicione: PB 4.039.277;\u001b[m");
-        System.out.println("\u001b[32;40m "+population.containsKey("PB")+"\u001b[m");
+        System.out.println("\u001b[39;5;214m \u001b[41;5;153m"+population.containsKey("PB")+"\u001b[m");
         population.put("PB", 4.039277);
         System.out.println("\u001b[32;40m "+population+"\u001b[m");
         System.out.println("\u001b[7m Exiba a população PE;\u001b[m");
@@ -83,7 +83,7 @@ public class Main {
         //System.out.println("\u001b[7m Apague o dicionário de estados;\u001b[m");
         order.clear();
         System.out.println("\u001b[7m Confira se o dicionário esta vazio:\u001b[m");
-        System.out.println("\u001b[32;40m "+order.isEmpty()+"\u001b[m");
+        System.out.println("\u001b[39;5;214m \u001b[42;5;153m "+order.isEmpty()+"\u001b[m");
 
     }
 }
