@@ -54,7 +54,7 @@ public class Agenda {
 
         System.out.println("--\tOrdem nome contato com Lambda\t--");
         Set<Map.Entry<Integer, Contato>> set1 = new TreeSet<>(Comparator.comparing(NomeEntry -> NomeEntry.getValue().getNome()));
-        
+
         set1.addAll(agenda.entrySet());
         for (Map.Entry<Integer, Contato> entry: set1) {
             System.out.println(entry.getKey() + " - " + entry.getValue().getNome());
