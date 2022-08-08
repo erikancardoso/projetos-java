@@ -17,7 +17,7 @@ public class UnchecketException {
                 tenteNovamente = false;
             }catch (NumberFormatException e){
                 JOptionPane.showMessageDialog(null,"entrada invalida, informe um numero!"+e.getMessage());
-                //e.printStackTrace();
+                e.printStackTrace();
              }catch (ArithmeticException e){
                 JOptionPane.showMessageDialog(null,"não é possível dividir um numero por "+e.getMessage());
             } finally {
@@ -27,7 +27,6 @@ public class UnchecketException {
         }while (tenteNovamente);
 
     }
-
 
     public static int dividir(int a, int b) {
         return a / b;

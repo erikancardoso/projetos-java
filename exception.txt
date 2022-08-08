@@ -1,0 +1,4 @@
+tratamento de exception
+quando reclamar usa o throws IOException {} 
+"para corrigir erro de checket exception é para uso geral"
+
