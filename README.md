@@ -1,3 +1,6 @@
 # projetos-java
 Resolução de atividades práticas do bootcamp Santander FullStack 
-#java #Angular
+- [x] java
+- [x] POO
+- [x] Stream API
+- [x] Collections Framework
